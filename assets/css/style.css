@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* All header-related formatting for the company name and navigation links */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,27 +35,28 @@ header div {
     font-size: 20px;
 }
 
-nav {
+header nav {
     text-align: right;
-  }
+}
 
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
     padding: 8px;
 }
 
-p {
-    font-size: 16px;
-}
-
-main {
+/* figure formatting - formerly hero */
+Figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 h2 {
@@ -67,6 +69,7 @@ h3 {
     text-align: center;
 }
 
+/* All footer-related formatting */
 footer {
     padding: 30px;
     clear: both;
@@ -137,4 +140,3 @@ footer h2 {
     margin: 10px auto;
     max-width: 150px;
 }
-
