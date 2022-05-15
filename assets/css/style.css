@@ -5,11 +5,6 @@
     margin: 0;
 }
 
-/* Standard element formatting */
-body {
-    background-color: #d9dcd6;
-}
-
 /* All header-related formatting for the company name and navigation links */
 header {
     padding: 20px;
@@ -44,8 +39,14 @@ header a {
     text-decoration: none;
     padding: 8px;
 }
+/* Closing all header-related formatting for the company name and navigation links */
 
-/* figure formatting - formerly hero */
+/* Standard element formatting */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Figure formatting - formerly hero */
 figure {
     height: 800px;
     width: 100%;
@@ -80,7 +81,7 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-
+/* Close all footer-related formatting */
 
 /* Custom classes */
 .float-left {
