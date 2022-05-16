@@ -21,8 +21,15 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+/* Closing all header-related formatting for the company name and navigation links */
 
-header div {
+/* Standard element formatting */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Nav formatting - formerly unordered list */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -30,20 +37,11 @@ header div {
     font-size: 20px;
 }
 
-header nav {
-    text-align: right;
-}
-
-header a {
-    color: #ffffff;
+nav a {
+    display: inline-block;
+    margin-left: 25px;
     text-decoration: none;
-    padding: 8px;
-}
-/* Closing all header-related formatting for the company name and navigation links */
-
-/* Standard element formatting */
-body {
-    background-color: #d9dcd6;
+    color: #ffffff;
 }
 
 /* Figure formatting - formerly hero */
